@@ -1,0 +1,29 @@
+﻿@model EmployeeDetails.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "Employee Details";
+}
+
+
+<h2>Employee Details</h2>
+
+<div>
+    <dl class="dl-horizontal" style="font-family: Arial; margin-top: 20px;">
+        <dt style="font-weight: bold; color: #336699;">Employee ID:</dt>
+        <dd>@Model.EmpID</dd>
+
+        <dt style="font-weight: bold; color: #336699;">Name:</dt>
+        <dd>@Model.EName</dd>
+
+        <dt style="font-weight: bold; color: #336699;">Department:</dt>
+        <dd>@Model.DeptName</dd>
+
+        <dt style="font-weight: bold; color: #336699;">Age:</dt>
+        <dd>@Model.Age</dd>
+
+        <dt style="font-weight: bold; color: #336699;">Salary:</dt>
+        <dd>@Model.Salary</dd>
+    </dl>
+</div>
+
+
